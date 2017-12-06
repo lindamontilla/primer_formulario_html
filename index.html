@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<title>Formulario de Linda</title>
+</head>
+<style>
+	div.membrete{
+				background-color: black;
+				font-family: 'Libre Barcode 39 Text';
+				font-size: 250%;
+				color: white;
+				width: 360px;
+				text-align: center;
+				margin-left: 11cm;
+				margin-top: 1.5cm;
+				}
+	div.estilo1{
+		background-color: white;
+				font-family: 'Raleway';
+				color: black;
+				width: 350px;
+				text-align: center;
+    			border-left: thick double black;
+    			border-right: thick double black;
+    			margin-left: 11cm;
+				}
+	div.estilo2{background-color: white;
+				font-family: 'Raleway';
+				color: black;
+				width: 350px;
+				text-align: center;
+    			border-left: thick double black;
+    			border-right: thick double black;
+    			margin-left: 11cm;
+    			font-size: 65%;
+				}			
+</style>
+<body>
+<form autocomplete="on" method="POST">
+	<div class="membrete">Formulario de Registro</div>
+	<br>
+
+	<div class="estilo1">
+			<label for="nombre">Nombre del Usuario</label> 
+			<input type="text" name="nombre" placeholder="Nombre de Pila" autofocus required>
+			<br>
+			<br>
+	</div>
+	
+
+	<div class="estilo1">
+			<label for="apellido">Apellido del Usuario</label> 
+			<input type="text" name="apellido" placeholder="Primer Apellido" required>
+			<br>
+			<br>
+	</div>
+	
+	
+	<div class="estilo1">
+			<label for="correo">Correo Electrónico</label> 
+			<input type="email" name="correo" placeholder="ejemplo@dominio.com" required>
+			<br>
+			<br>
+	
+	</div>
+	<div class="estilo1">
+			<label for="contraseña">Contraseña</label> 
+			<input type="password" name="password" title="Máximo 15 caracteres alfanuméricos" maxlength="15" required>
+			<br>
+			<br>
+	</div>
+
+	
+	<div class="estilo1">
+			<label for="edad">Edad</label> 
+			<input type="number" name="edad" min="18" max="99" title="Edad mínima: 18 años">
+			<br>
+			<br>
+	</div>
+
+	<div class="estilo1">
+			<label for="genero"></label>
+			<input type="radio" name="genero" value="hombre" checked>Hombre &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </input>
+			<input type="radio" name="genero" value="Mujer">Mujer</input>
+			<br>
+			<br>
+	</div>
+
+	<div class="estilo1">
+			<label for=condiciones></label>
+			<input type="checkbox" name="condiciones" value="legal" required >He leido y acepto los terminos y condiciones de registro  </input>
+			<br>
+			<br>
+	</div>
+
+	<div class="estilo2">
+			<a href="./terminos_y_condiciones.html" target="_blank">Terminos y condiciones</a>
+			<br>
+			<br>
+			<br>
+			<br>
+	</div>
+
+	<div class="estilo1">
+			<button type="reset" value="Restablecer">Restablecer</button>
+			<button type="submit">Enviar</button>
+			<br>
+			<br>
+			<br>
+			<br>
+	</div>
+
+	<div class="estilo2">
+			<img src="./img/starfish.jpg" alt="ST&#9733;FISH" width=50%>
+			<p>Copyright &copy; 2017 - ST&#9733;RFISH </p>
+	</div>	
+</form>
+
+	
+</div>
+
+</form>	
+</body>
+</html>
